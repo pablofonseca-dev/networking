@@ -1,0 +1,106 @@
+# Introduction to Networking | Networking Fundamentals Part 1 
+
+For you at work or home you have a bunch of devices computers, printers, TVs and so on, you 
+
+connect these by means of a network. When the devices are connected they're able to share data
+
+this could be a sending a print job to a printer, sending an email or streaming a video can also 
+
+be used for sharing an internet connection. Mostly network users are unaware of the network they're
+
+using as long as they can browse the Internet do their job, browse YouTube, they're usually fine for
+
+all of these devices to communicate, they need to be connected together somehow one way sir plug 
+
+cables into the devices and connect them to another device called a switch an example is in a
+
+school's computer in this case a computer in the lab connects to a wall socket with a cable, 
+
+another cable runs through the wall which comes out at a patch panel, this may be a cabinet on the 
+
+wall somewhere in the room or in another room entirely, the port on the patch panel then connects 
+
+to the switch. You might have a switch at a home, too most homes don't have wall sockets 
+
+so devices are connected directly to the switch,  we'll talk more about how switches work. 
+
+Later we can also connect devices wirelessly a common way, to do this is to use a wireless access
+
+point, a wireless network like this is also called Wi-Fi, an example of this is if you have a 
+
+tablet, it is impractical to cable it in, so wireless is a good option. 
+
+**The access point** is like a switch without cables, more than one device can connect to the 
+
+access point over time but without the messy cabling. The access point can also be connected
+
+to the switch with a cable, this way wired and wireless devices can be part of the same network. 
+
+Having both wired switches and wires access points gives you more connection options. Imagine
+
+you have a laptop in an office you may connect it to the network with a cable when you're 
+
+at your desk, when you have a meeting in the conference room, you remove the cable and connect to 
+
+Wi-Fi where the wired or wireless the goal of the network is to move information from one device
+
+to another. For this to work, the sender and the receiver must understand each other, they need
+
+to speak the same language. 
+
+In the network, speaking the same language means that devices agree on how data is sent, received, 
+
+organized and handled basically they agree on a process that they all follow, it's a bit like filling
+
+out a paperwork, this is called a protocol. A lot of different protocols are used depending 
+
+on what's needed at the time. Network software and hardware are designed with these protocols, 
+
+in mind you will hear of protocols like Ethernet and TCP which are used for sending and receiving data
+
+you may also hear of protocols like HTTP which is used for accessing the web and SMPT which is 
+
+used for email. Usually several protocols are used together to achieve a task.
+
+## In Summary Notes 
+
+Networks are use to connect devices together 
+
+Devices uses the network to share information 
+
+To share information devices need to speak the same language
+
+This language is called a protocol, which is a set of instructions 
+of how to handle the information. 
+
+## Quiz 
+
+**What are two ways computers can connect to the network?**
+
+Computers and other devices can connect to a network using cables or wirelessly. 
+
+WiFi is the common wireless technology for a computer network. **Ethernet is the protocol most often used in cabled networks.**
+
+**What devices do the usually connect to?**
+
+1. Usually cabled devices connect to a **switch**. But, computers can also be connected directly together in some cases, or may connect into a **router**. 
+   Sometimes *special* cables are needed, which is covered in the next video.
+
+2. Wireless devices usually connect to a wireless **Access Point (AP)**. Sometimes wireless computers will connect to each other without an **AP**. This is called an **AdHoc network**.
+
+**How many protocols are used when one computer accesses another computer?**
+
+This is a bit if a trick question to get you to think. The answer is, *it depends*.
+
+As we talked about, protocols are a way to format data. This means that both ends of the conversation understand what’s being said.
+
+Some protocols are used to deliver data. They don’t care what the data is about though. Their only job is to get the data from one endpoint to another. **Ethernet**
+
+is an example of this type of protocol.
+
+Other protocols work with the application. An example of this is **SMTP** with is a protocol that describes how emails are handled. 
+SMTP doesn’t worry about getting information onto a cable, or across WiFi. That’s what protocols like Ethernet are for. SMTP is only worried about the mail.
+
+So, several protocols may work together to accomplish a task. We’ll see more of this throughout the series.
+
+ 
